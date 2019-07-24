@@ -1,5 +1,6 @@
 {
   "name": "admob-plus-monorepo",
+  "version": "0.30.0",
   "private": true,
   "scripts": {
     "test": "run-s test:*",
