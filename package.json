@@ -49,11 +49,6 @@
     "typescript": "^3.4.5"
   },
   "repository": "admob-plus/admob-plus",
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "eslintConfig": {
     "extends": [
       "concise"
@@ -76,33 +71,6 @@
       "jsx",
       "json",
       "node"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier-eslint --write",
-      "eslint --fix",
-      "git add"
-    ],
-    "*.md": [
-      "remark --no-stdout"
-    ],
-    "*.ts": [
-      "prettier-tslint fix",
-      "git add"
-    ],
-    "examples/*/package.json": [
-      "prettier --write",
-      "git add"
-    ],
-    "packages/cordova/src/ios/*.swift": [
-      "swiftlint lint --strict --path"
     ]
   },
   "remarkConfig": {
