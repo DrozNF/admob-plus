@@ -1,6 +1,6 @@
 {
-  "name": "nf-cordova-admob-plus",
-  "version": "0.0.4",
+  "name": "nf-cordova-admob-plus-iii",
+  "version": "0.0.5",
   "description": "Trustable Google AdMob Cordova Plugin",
   "main": "www/admob.js",
   "typings": "www/admob.d.ts",
@@ -30,7 +30,7 @@
     "rollup-plugin-typescript2": "^0.21.1",
     "ts-node": "^8.2.0"
   },
-  "author": "Ratson",
+  "author": "Michael Drozdowski",
   "license": "MIT",
   "repository": "admob-plus/admob-plus",
   "homepage": "https://admob-plus.github.io",
@@ -58,7 +58,7 @@
     "admobpro"
   ],
   "cordova": {
-    "id": "cordova-admob-plus",
+    "id": "nf-cordova-admob-plus-iii",
     "platforms": [
       "android",
       "ios"
