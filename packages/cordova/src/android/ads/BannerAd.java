@@ -71,7 +71,7 @@ public class BannerAd extends AdBase {
         if (adView == null) {
             adView = new PublisherAdView(plugin.cordova.getActivity());
             adView.setAdUnitId(adUnitID);
-            adView.setAdSize(AdSize.BANNER);
+            adView.setAdSizes(AdSize.BANNER);
             adView.setAdListener(new AdListener(this));
 
             addBannerView(adView);
