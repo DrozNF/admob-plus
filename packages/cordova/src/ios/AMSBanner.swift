@@ -38,6 +38,7 @@ class AMSBanner: AMSAdBase, GADBannerViewDelegate {
             bannerView.rootViewController = nil
             bannerView.removeFromSuperview()
             bannerView = nil
+            self.resizeWebView()
         }
     }
 
